@@ -1,4 +1,4 @@
-package com.bitacademy.guestbook.vo;
+	package com.bitacademy.guestbook.vo;
 
 public class GuestbookVo {
 	private Long no;

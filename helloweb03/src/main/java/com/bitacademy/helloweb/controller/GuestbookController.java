@@ -16,12 +16,13 @@ public class GuestbookController {
 	@ResponseBody
 	@RequestMapping
 	public String list() {
-		return"GuestbookController.list()";
+		return "GuestbookController.list()";
 	}
+	
 	@ResponseBody
 	@RequestMapping
 	public String delete() {
-		return"GuestbookController.delete()";
+		return "GuestbookController.delete()";
 	}
-
+	
 }

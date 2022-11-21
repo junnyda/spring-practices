@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  * 
- * @RequestMappinㅎg 메소드 단독 매핑
+ * @RequestMapping 메소드 단독 매핑
  *
  */
 @Controller
@@ -16,13 +16,12 @@ public class BoardController {
 	@ResponseBody
 	@RequestMapping("/board/write")
 	public String write() {
-		return" BoardController.write()";
+		return "BoardController.write()";
 	}
-	
+
 	@ResponseBody
 	@RequestMapping("/board/view/{no}")
 	public String view(@PathVariable("no") Long no) {
-		return"BoardController.view(" + no + ")";
-		
+		return "BoardController.view(" + no + ")";
 	}
 }
