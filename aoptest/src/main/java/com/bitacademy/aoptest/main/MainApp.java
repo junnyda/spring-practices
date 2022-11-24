@@ -14,7 +14,5 @@ public class MainApp {
 		ProductService ps = ac.getBean(ProductService.class);
 		ProductVo vo = ps.find("TV");
 		System.out.println(vo);
-		
 	}
-
 }
